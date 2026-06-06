@@ -1,0 +1,1 @@
+Hands-on Microsoft 365 admin lab documenting user account review, password reset workflow, MFA/authentication methods review, and first sign-in password change verification.
