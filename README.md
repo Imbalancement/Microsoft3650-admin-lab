@@ -22,9 +22,6 @@ The lab focused on three core areas:
 
 A test user account was created in Microsoft 365 to simulate a basic help desk support request. The workflow covered creating or reviewing the user account, checking MFA/authentication settings, resetting the password, and confirming the user-side password change prompt during first sign-in.
 
-Example mock ticket:
-
-> A user cannot sign in to Microsoft 365. The help desk needs to review the account, reset the password, require the user to change the password at first sign-in, and verify authentication options in Microsoft Entra ID.
 
 ---
 
@@ -34,7 +31,8 @@ The first step was to open the Microsoft 365 Admin Center and navigate to **User
 
 This is a common starting point for help desk troubleshooting because it allows an admin to review user status, licensing, sign-in access, and available account actions.
 
-![Microsoft 365 Active Users](images/01-active-users.png)
+<img width="2548" height="862" alt="365AddUser" src="https://github.com/user-attachments/assets/b2f8372b-0a14-4f5f-a577-49a54fac63f8" />
+
 
 ### Skills Practiced
 
@@ -59,7 +57,8 @@ In a real support environment, this is where an IT technician may begin when han
 
 Next, I opened the test user in the Microsoft Entra Admin Center and reviewed the **Authentication methods** page. This area is used to review or manage how a user signs in, including MFA-related options.
 
-![Microsoft Entra Authentication Methods](images/02-entra-authentication-methods.png)
+<img width="2535" height="1008" alt="365MFAreset" src="https://github.com/user-attachments/assets/09b2f3b1-dc86-4400-944d-e943575663fb" />
+
 
 ### Skills Practiced
 
@@ -93,7 +92,8 @@ Microsoft Entra ID is where identity and authentication troubleshooting often ha
 
 The next step was to reset the test user's password from the Microsoft 365 Admin Center. The password reset blade allowed the admin to automatically generate a password and require the user to change it at first sign-in.
 
-![Microsoft 365 Password Reset](images/03-password-reset-admin.png)
+<img width="2486" height="1308" alt="365PWreset" src="https://github.com/user-attachments/assets/cc6363c0-237a-4754-bd4c-28fcd1e8edc5" />
+
 
 ### Skills Practiced
 
@@ -117,7 +117,8 @@ Admins cannot view an existing Microsoft 365 password. They can only reset it, i
 
 After the admin-side password reset workflow, I signed in as the test user to confirm the account could reach the Microsoft account homepage.
 
-![Test User Account Homepage](images/04-user-account-homepage.png)
+<img width="1375" height="982" alt="365PWreset3" src="https://github.com/user-attachments/assets/073dac3f-9571-4103-b4a6-128d447a4936" />
+
 
 ### Skills Practiced
 
@@ -139,7 +140,8 @@ A good support workflow does not stop at clicking reset. The technician should v
 
 After the password reset, the test user was prompted to update the password during sign-in. This confirmed that the **require password change at first sign-in** option worked as expected.
 
-![Microsoft Password Change Prompt](images/05-password-change-prompt.png)
+<img width="1968" height="1317" alt="365PWreset2" src="https://github.com/user-attachments/assets/d01a0d17-df9f-4208-b3ab-94c299e07b59" />
+
 
 ### Skills Practiced
 
@@ -173,13 +175,6 @@ This lab provided hands-on practice with the following Microsoft 365 and Entra I
 - Located MFA re-registration and session revocation controls
 - Verified the user-side sign-in/password update experience
 
-## Interview Talking Point
-
-> I built a Microsoft 365 lab tenant and practiced common help desk admin workflows, including user account review, password resets, requiring password changes at first sign-in, and reviewing MFA/authentication methods in Microsoft Entra ID.
-
-## Resume Bullet
-
-- Practiced Microsoft 365 and Microsoft Entra ID administration tasks including user account review, password resets, MFA authentication method review, session revocation options, and first sign-in password change verification.
 
 ## Lessons Learned
 
