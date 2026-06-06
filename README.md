@@ -183,14 +183,3 @@ This lab provided hands-on practice with the following Microsoft 365 and Entra I
 - Admins cannot view existing user passwords; they can only reset passwords and issue temporary credentials.
 - Verifying the user-side experience is important because it confirms the admin action worked as intended.
 
-## Next Steps
-
-Future Microsoft 365 admin labs could include:
-
-- Creating Microsoft 365 groups
-- Assigning and removing product licenses
-- Blocking and unblocking user sign-in
-- Creating a shared mailbox
-- Testing OneDrive and SharePoint permissions
-- Creating Teams and managing membership
-- Reviewing sign-in logs in Microsoft Entra ID
